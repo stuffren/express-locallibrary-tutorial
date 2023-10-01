@@ -1,0 +1,12 @@
+
+#备注1
+17:15 2023/9/9
+镜像网站：https://www.bootcdn.cn/
+由于MDN后端教程中章节《本地图书馆基础模板》中引用的bootstrap和jquery 版本过低，已更新为bootcdn官网的镜像。
+
+具体views/layout.pug中的引用更新参看以下注释：
+//bootstrap版本过低，于2023.9.9日已经替换为www.bootcdn.cn/twitter-bootstrap/的5.2.3版本的bootstrap.min.css
+//jquery版本过低，于2023.9.9日已经替换为https://www.bootcdn.cn/jquery/的3.6.4版本的jquery.min.js
+//bootstrap版本过低，于2023.9.9日已经替换为www.bootcdn.cn/twitter-bootstrap/的5.2.3版本的bootstrap.min.css
+
+
