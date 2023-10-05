@@ -7,7 +7,14 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
+    "deploy": "git push origin main && npm install && npm run build"
   },
+    "config": {  
+      "deploy": {  
+        "type": "git",  
+        "repo": "root@192.3.112.214:/var/repo/mdnlibray.git"  
+      }  
+    }
   "dependencies": {
     "async": "^3.2.4",
     "compression": "^1.7.4",
